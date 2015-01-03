@@ -44,16 +44,31 @@
         <div role="tabpanel" id="tab1-content" aria-labelledby="tab1" ng-switch-when="0" md-swipe-left="next()" md-swipe-right="previous()">
           <!--View for Item #1-->
           <md-content class="md-padding" style="height: 600px;">
-            <div layout="row">
-              <div flex="20">
-                <!-- marquen izquierda -->
-              </div>
-              <div flex="60">
-                <md-content>
-                  <h1>Contenido</h1>
-              </div>
-              <div flex="20">
-                <!-- marquen izquierda -->
+            <div layout="column">
+              <div ng-controller="AppCtrl">
+                    <md-content>
+                      <div layout="row">
+                        <div flex="20"></div>
+                        <div flex="60">
+
+                          <md-content>
+                            <div ng-controller="AppCtrl">
+                              <md-content>
+                                <md-card>
+
+                                <h3>
+                                  Muy buenas aptitudes en el desarrollo de aplicaciones web y móvil adquiridas durante los estudios, así como en proyectos personales. Buen entendimiento de una larga lista de algoritmos Java/Python y la implementación de los mismos. Además, muy buen nivel de inglés y muchas ganas de comenzar a demostrar lo aprendido.
+                                <h3>
+                                  
+                                </md-card>
+                              </md-content>
+                            </div>
+                          </md-content>
+                          
+                        </div>
+                        <div flex></div>
+                      </div>
+                </md-content>
               </div>
             </div>
           </md-content>
