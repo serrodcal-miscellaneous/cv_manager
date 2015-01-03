@@ -60,7 +60,48 @@
           
         </div>
         <div role="tabpanel" id="tab2-content" aria-labelledby="tab2" ng-switch-when="1" md-swipe-left="next()" md-swipe-right="previous()">
-          View for Item #2
+          <!--View for Item #2-->
+
+          <md-content class="md-padding" style="height: 600px;">
+            <div layout="row">
+              <div flex="20">
+                <!-- marquen izquierda -->
+              </div>
+              <div flex="60">
+                <md-content>
+                  <div ng-controller="AppCtrl">
+                    <md-content>
+                      <md-card>
+
+                        <div layout="column" layout-align="start start">
+                          <div layout="row"  layout-align="start start">
+                            <div><h2>Aptus Tecnología</h2></div>
+                          </div>
+                          <div layout="row"  layout-align="start start">
+                            <div layout="row">
+                              <div flex="55">
+                                 <div><h3>Ingeniero de Software</h3></div>
+                              </div>
+                              <div flex="55" layout="row" layout-align="end center">
+                                <div>Nobiembre 2014 - Actualidad</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+                          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+                        </p>
+                      </md-card>
+                    </md-content>
+                  </div>
+                </md-content>
+              </div>
+              <div flex="20">
+                <!-- marquen izquierda -->
+              </div>
+            </div>
+          </md-content>
         </div>
         <div role="tabpanel" id="tab3-content" aria-labelledby="tab3" ng-switch-when="2" md-swipe-left="next()" md-swipe-right="previous()">
           View for Item #3
